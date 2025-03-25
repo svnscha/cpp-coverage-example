@@ -17,3 +17,9 @@ bool MyQueue::IsEmpty() const
 {
    return _q.empty();
 }
+
+void MyQueue::NewFunction()
+{
+   static int nonsense = 0;
+   nonsense += 1;
+}

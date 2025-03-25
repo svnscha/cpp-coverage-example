@@ -14,3 +14,8 @@ TEST(MyQueueTest, PushAndPopWorks) {
     q.Pop();
     EXPECT_TRUE(q.IsEmpty());
 }
+
+TEST(MyQueueTest, TestNonsense) {
+    MyQueue q;
+    q.NewFunction();
+}
